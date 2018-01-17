@@ -1,4 +1,4 @@
-let knexfile = require('../../knexfile')
+let knexfile = require('../knexfile')
 let Knex = require('knex')
 
 const cfg = knexfile.development

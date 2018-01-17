@@ -1,4 +1,5 @@
-let knex = require('./knex-init')
+let knex = require('../knex-init')
+
 
 async function readUsers() {
  const users = await knex('user').select('*')
