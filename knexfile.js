@@ -7,6 +7,9 @@ module.exports = {
       user : 'root',
       password : '',
       database : 'sampledb',
+    },
+    migrations: {
+      tableName: 'migrations'
     }
   }
 };
